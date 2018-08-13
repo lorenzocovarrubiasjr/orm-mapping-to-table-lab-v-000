@@ -24,8 +24,8 @@ class Student
   
   def self.drop_table
     sql = "DROP TABLE IF EXISTS students"
-      DB[:conn].execute(sql) 
-  end 
+       
+  end DB[:conn].execute(sql)
   
   def save(name, grade)
     sql = "INSERT INTO students (name, grade) VALUES (?,?)"
