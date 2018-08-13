@@ -34,7 +34,7 @@ class Student
   end 
   
   def self.create(name:, grade:) 
-    initialize(name:, grade:)
+    student = Student.new(name:, grade:)
     self.save 
     self 
   end 
