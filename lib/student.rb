@@ -19,8 +19,8 @@ class Student
         grade INTEGER 
         )
         SQL
-        DB[:conn].execute(sql)
-  end 
+       
+  end  DB[:conn].execute(sql)
   
   #def self.drop_table
   #  sql = <<-SQL
